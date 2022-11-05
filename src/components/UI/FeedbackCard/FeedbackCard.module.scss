@@ -1,0 +1,11 @@
+@import '../../../assets/styles/vars.scss';
+
+.card {
+  background: transparent;
+  max-width: 370px;
+  
+  &:hover {
+    background: $black-gradient;
+    border-radius: 20px;
+  }
+}

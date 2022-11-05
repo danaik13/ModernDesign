@@ -1,0 +1,14 @@
+@import '../../../assets/styles/vars.scss';
+
+.wrapper-blue-gradient {
+    width: 140px;
+    height: 140px;
+    background: $blue-gradient;
+    cursor: pointer;
+    border-radius: 100%;
+    padding: 2px;
+}
+
+.wrapper {
+    background: $primary;
+}

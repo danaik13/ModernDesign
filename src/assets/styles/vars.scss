@@ -1,0 +1,70 @@
+$black-gradient: linear-gradient(
+  144.39deg,
+  #ffffff -278.56%,
+  #6d6d6d -78.47%,
+  #11101d 91.61%
+);
+
+$reverce-black-gradient: linear-gradient(
+  -168.39deg,
+  #ffffff -278.56%,
+  #6d6d6d -78.47%,
+  #11101d 91.61%
+);
+
+$gray-gradient: linear-gradient(
+  153.47deg,
+  rgba(255, 255, 255, 0) -341.94%,
+  #14101d 95.11%
+);
+
+$blue-gradient: linear-gradient(
+  157.81deg,
+  #def9fa -43.27%,
+  #bef3f5 -21.24%,
+  #9dedf0 12.19%,
+  #7de7eb 29.82%,
+  #5ce1e6 51.94%,
+  #33bbcf 90.29%
+);
+
+$text-gradient: radial-gradient(
+  64.18% 64.18% at 71.16% 35.69%,
+  #def9fa 0.89%,
+  #bef3f5 17.23%,
+  #9dedf0 42.04%,
+  #7de7eb 55.12%,
+  #5ce1e6 71.54%,
+  #33bbcf 100%
+);
+
+$primary: rgb(0, 4, 15) !default;
+$gray: rgba(255, 255, 255, 0.7) !default;
+$dim-blue: rgba(9, 151, 124, 0.1) !default;
+
+$body-bg: $primary !default;
+$body-color: $gray !default;
+$text-color: $gray !default;
+
+$font-family-sans-serif: Poppins;
+$font-size-base: 1.125rem !default;
+$paragraph-margin-bottom: 2rem !default;
+$line-height-base: 1.7 !default;
+
+$link-color: $gray !default;
+$link-hover-color: rgb(0, 246, 255) !default;
+$link-decoration: none !default;
+$link-hover-decoration: none !default;
+
+$h1-font-size: 4.5rem !default;
+$h2-font-size: 3rem !default;
+$h3-font-size: 2.5rem !default;
+$h4-font-size: 1.25rem !default;
+
+$headings-font-weight: 600 !default;
+$headings-line-height: 1.5 !default;
+$headings-color:#fff !default;
+$headings-margin-bottom: 1.5rem !default;
+
+$border-radius: 10px;
+$navbar-toggler-focus-width: 0 !default;

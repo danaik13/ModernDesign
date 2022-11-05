@@ -1,0 +1,22 @@
+@import '../../../assets/styles/vars.scss';
+
+.card {
+    padding: 1.5rem;
+    flex-direction: row;
+    
+    &:hover {
+        background: $black-gradient;
+        border-radius: 20px;
+    }
+}
+
+.icon {
+    background: $dim-blue;
+    border-radius: 100%;
+    width: 64px;
+    height: 64px;
+
+    img {
+        object-fit: contain;
+    }
+}
