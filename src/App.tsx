@@ -13,7 +13,7 @@ import {
 } from './components';
 
 const App = () => (
-  <div className="d-flex flex-column max-vw-100 min-vh-100">
+  <div className="d-flex flex-column overflow-hidden min-vh-100">
     <Header />
      <main>
         <Banner />
